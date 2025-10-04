@@ -4,7 +4,7 @@ import time
 import random 
 def terminalClear():
     if os.name=='nt':
-        _=os.system("clear")
+        _=os.system("cls")
     else:
         _=os.system("clear")
 tried=[]
